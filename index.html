@@ -1,0 +1,235 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="styles/styles.css">
+    <title>Dashboard</title>
+</head>
+<body>
+
+<div class="container">
+    <div class="navigation">
+        <ul>
+            <li>
+                <a href="#">
+                    <span class="icon"><ion-icon name="logo-apple"></ion-icon></span>
+                    <span class="title logo">Mobi Market</span>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <span class="icon"><ion-icon name="home"></ion-icon></span>
+                    <span class="title">Dashboard</span>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <span class="icon"><ion-icon name="contacts"></ion-icon>
+                        </ion-icon></span>
+                    <span class="title">Costumers</span>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <span class="icon"><ion-icon name="chatbubbles"></ion-icon></span>
+                    <span class="title">Messages</span>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <span class="icon"><ion-icon name="help-circle-outline"></ion-icon></span>
+                    <span class="title">Help</span>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <span class="icon"><ion-icon name="settings"></ion-icon></span>
+                    <span class="title">Settings</span>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <span class="icon"><ion-icon name="unlock"></ion-icon></span>
+                    <span class="title">Password</span>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <span class="icon"><ion-icon name="log-out"></ion-icon></span>
+                    <span class="title">Sign Out</span>
+                </a>
+            </li>
+        </ul>
+    </div>
+    <!-- main -->
+    <div class="main">
+        <div class="top_bar">
+            <div class="toggle">
+                <ion-icon name="menu"></ion-icon>
+            </div>
+
+            <!-- search -->
+            <div class="search">
+                <label>
+                    <input type="text" placeholder="Search here">
+                    <ion-icon name="search"></ion-icon>
+                </label>
+            </div>
+            <!-- userImg -->
+            <div class="user">
+                <img src="images/user.jpg" alt="">
+            </div>
+        </div>
+
+        <!-- cards -->
+        <div class="cardBox">
+            <div class="card">
+                <div>
+                    <div class="numbers">1,500</div>
+                    <div class="cardName">Daily Views</div>
+                </div>
+                <div class="iconBox">
+                    <ion-icon name="eye"></ion-icon>
+                </div>
+            </div>
+            <div class="card">
+                <div>
+                    <div class="numbers">80</div>
+                    <div class="cardName">Sales</div>
+                </div>
+                <div class="iconBox">
+                    <ion-icon name="cart"></ion-icon>
+                </div>
+            </div>
+            <div class="card">
+                <div>
+                    <div class="numbers">284</div>
+                    <div class="cardName">Comments</div>
+                </div>
+                <div class="iconBox">
+                    <span class="icon"><ion-icon name="chatbubbles"></ion-icon></span>
+                </div>
+            </div>
+            <div class="card">
+                <div>
+                    <div class="numbers">$7,458</div>
+                    <div class="cardName">Earning</div>
+                </div>
+                <div class="iconBox">
+                    <ion-icon name="cash"></ion-icon>
+                </div>
+            </div>
+        </div>
+
+        <div class="details">
+            <!-- details list -->
+            <div class="resendOrders">
+                <div class="cardHeader">
+                    <h2>Resent Orders</h2>
+                    <a href="#" class="btn">View all</a>
+                </div>
+           <table>
+               <thead>
+               <tr>
+                  <td>Name</td>
+                   <td>Price</td>
+                   <td>Payment</td>
+                   <td>Status</td>
+               </tr>
+               </thead>
+               <tbody>
+               <tr>
+                   <td>Samsung</td>
+                   <td>$1200</td>
+                   <td>Due</td>
+                   <td><span class="status delivered">Delivered</span></td>
+               </tr>
+               <tr>
+                   <td>I phone</td>
+                   <td>$3200</td>
+                   <td>Paid</td>
+                   <td><span class="status inProgress">In progress</span></td>
+               </tr>
+               <tr>
+                   <td>Huawei</td>
+                   <td>$500</td>
+                   <td>Paid</td>
+                   <td><span class="status delivered">Delivered</span></td>
+               </tr>
+               <tr>
+                   <td>Honor</td>
+                   <td>$800</td>
+                   <td>Due</td>
+                   <td><span class="status delivered">Delivered</span></td>
+               </tr>
+               <tr>
+                   <td>Redmi</td>
+                   <td>$900</td>
+                   <td>Paid</td>
+                   <td><span class="status inProgress">In progress</span></td>
+               </tr>
+               <tr>
+                   <td>Nokia</td>
+                   <td>$200</td>
+                   <td>Due</td>
+                   <td><span class="status pending">Pending</span></td>
+               </tr>
+               <tr>
+                   <td>Lenovo</td>
+                   <td>$500</td>
+                   <td>Paid</td>
+                   <td><span class="status return">Return</span></td>
+               </tr>
+               </tbody>
+           </table>
+            </div>
+
+            <!-- New Costumers -->
+<div class="recentCustomers">
+    <div class="cardHeader">
+        <h2>Recent Costumers</h2>
+    </div>
+<table>
+    <tbody>
+    <tr>
+        <td width="60px"><div class="imgBox"><img src="images/img.jpg" alt=""></div></td>
+        <td><h4>Anna<br><span>Armenia</span></h4></td>
+    </tr>
+    <tr>
+        <td width="60px"><div class="imgBox"><img src="images/img1.jpeg" alt=""></div></td>
+        <td><h4>Narine<br><span>Armenia</span></h4></td>
+    </tr>
+    <tr>
+        <td width="60px"><div class="imgBox"><img src="images/img2.jpg" alt=""></div></td>
+        <td><h4>Jim<br><span>England</span></h4></td>
+    </tr>
+    <tr>
+        <td width="60px"><div class="imgBox"><img src="images/img3.jpg" alt=""></div></td>
+        <td><h4>Janet<br><span>Germany</span></h4></td>
+    </tr>
+    <tr>
+        <td width="60px"><div class="imgBox"><img src="images/img4.jpg" alt=""></div></td>
+        <td><h4>Jack<br><span>Norway</span></h4></td>
+    </tr>
+    <tr>
+        <td width="60px"><div class="imgBox"><img src="images/img5.jpg" alt=""></div></td>
+        <td><h4>Tanya<br><span>Russia</span></h4></td>
+    </tr>
+
+    </tbody>
+</table>
+</div>
+
+        </div>
+    </div>
+</div>
+
+
+<script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+<script src="scripts/main.js"></script>
+
+</body>
+</html>
